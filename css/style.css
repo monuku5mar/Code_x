@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap');
+
+html,
+body {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../static/img/banner.jpg');
+    height: 750px;
+}
+
+nav img {
+    height: 47px;
+    width: 167px;
+    vertical-align: middle;
+}
+
+nav a.logo {
+    display: inline-block;
+    line-height: 90px;
+    margin-left: 3%;
+}
+
+header nav {
+    height: 90px;
+}
+
+nav .sign {
+    color: white;
+    float: right;
+    margin-right: 3%;
+    background-color: #dc0510;
+    padding: 7px 17px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 18px;
+    line-height: normal;
+    font-size: 16px;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    
+}
+
+section .hmaincon {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section div {
+    text-align: center;
+}
+
+.hmaincon .hp1 .title {
+    font-size: 67px;
+    line-height: 1.13;
+}
+
+.hmaincon .hp2 .title2 {
+    font-size: 27px;
+    font-weight: 501;
+    margin-top: 15px;
+}
+
+.hmaincon .hmes {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 38px;
+}
+
+.hmaincon .hmes .reg {
+    display: flex;
+    margin-top: 26px;
+}
+
+.hmaincon .hmes .reg input {
+    height: 76px;
+    width: 600px;
+    font-size: large;
+    padding: 12px;
+}
+
+.hmaincon .hmes .reg .getstarted {
+    background-color: #dc0510;
+    color: white;
+    font-size: 28px;
+    font-weight: normal;
+    border: none;
+    border-radius: 2px;
+    padding: 21px 28px;
+}
