@@ -15,9 +15,11 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../static/img/banner.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('../static/img/banner.jpg');
     height: 750px;
+    border-bottom: 10px solid #222222 ;
 }
+
 
 nav img {
     height: 47px;
@@ -53,14 +55,15 @@ section{
     display: flex;
     justify-content: center;
     
+    
 }
 
 section .hmaincon {
     display: flex;
-    height: 500px;
+    height: 522px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 
 }
 
@@ -68,13 +71,18 @@ section div {
     text-align: center;
 }
 
-.hmaincon .hp1 .title {
-    font-size: 67px;
+.hmaincon .hp1 .title1 {
+    font-size: 60px;
     line-height: 1.13;
+}
+.title {
+    font-size: 50px;
+    margin-bottom: 12px;
+    
 }
 
 .hmaincon .hp2 .title2 {
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 501;
     margin-top: 15px;
 }
@@ -82,12 +90,12 @@ section div {
 .hmaincon .hmes {
     font-size: 19px;
     font-weight: bold;
-    margin-top: 38px;
+    margin-top: 30px;
 }
 
 .hmaincon .hmes .reg {
     display: flex;
-    margin-top: 26px;
+    margin-top: 16px;
 }
 
 .hmaincon .hmes .reg input {
@@ -107,3 +115,43 @@ section div {
     padding: 21px 28px;
 }
 /* added git here */
+main .featcont{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid #222222 ;
+
+}
+main .featcont .text{
+    width: auto;
+    height:auto;
+}
+main .featcont .media{
+    margin: 0 0 36px 124px;
+}
+main .featcont .media img{
+    height: 400px;
+    width: auto;
+}
+main .featcont .media3{
+    margin: 61px 0 36px 124px;
+}
+main .featcont .media3 img{
+    height: 363px;
+    width: auto;
+}
+main .featcont .media2 img{
+    height: 363px;
+    width: auto;
+}
+main .featcont .media2{
+    margin: 0px 224px 58px 0px;
+}
+main .featcont .media4{
+    margin: 45px 120px 35px 0px;
+}
+main .featcont .media4 img{
+    height: 385px;
+    width: auto;
+}
