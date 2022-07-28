@@ -155,3 +155,19 @@ main .featcont .media4 img{
     height: 385px;
     width: auto;
 }
+#faq{
+    height: 800px;
+    border-bottom: 10px solid #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#faq .ques {
+    
+    height: 100px;
+    min-width: 400px;
+    max-width: 900px;
+    margin: 4px auto;
+    border: 2px solid red;
+}
